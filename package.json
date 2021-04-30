@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./packages/container",
+      "./packages/sweet",
+      "./packages/sour"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  }
+}
